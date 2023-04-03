@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="88B-LR-6gg">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller6-->
+        <scene sceneID="euF-Uy-6YA">
+            <objects>
+                <viewController id="xR1-6G-Soo" customClass="ViewController6" customModule="MulakatOdev" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="F0e-2z-wyd">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="8tB-Hg-Zfw"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="5uE-Sb-LA8"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NOJ-Dy-O9M" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-244" y="813"/>
+        </scene>
+        <!--Markalar-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MulakatOdev" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="4Un-Et-qNW">
+                                <rect key="frame" x="0.0" y="93" width="393" height="759"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="79" id="BSx-CZ-LYI">
+                                        <rect key="frame" x="0.0" y="50" width="393" height="79"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="BSx-CZ-LYI" id="kgB-de-7nt">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="79"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rightarrow" translatesAutoresizingMaskIntoConstraints="NO" id="BGB-MS-fFa">
+                                                    <rect key="frame" x="334" y="43" width="39" height="16"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="tintColor" systemColor="tintColor"/>
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="small"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Markalar" id="aKt-Mw-RE0"/>
+                    <connections>
+                        <outlet property="tableView" destination="4Un-Et-qNW" id="kZQ-Yh-P7S"/>
+                        <segue destination="uq8-Ob-Eej" kind="show" identifier="toAudi" id="kda-Ge-t9Q"/>
+                        <segue destination="1vR-Yk-wy0" kind="show" identifier="toBmw" id="FAM-5U-ca4"/>
+                        <segue destination="RTh-rj-HkZ" kind="show" identifier="toChrysler" id="eQ1-I4-HHl"/>
+                        <segue destination="eKU-ba-d5D" kind="show" identifier="toFiat" id="KFm-lg-iKe"/>
+                        <segue destination="xR1-6G-Soo" kind="show" identifier="toHonda" id="fMi-GP-4PU"/>
+                        <segue destination="uF7-X4-6U7" kind="show" identifier="toJaguar" id="hxn-ar-Ujl"/>
+                        <segue destination="R9v-ic-QJI" kind="show" identifier="toLexus" id="tte-I2-4cP"/>
+                        <segue destination="yPw-cx-LG5" kind="show" identifier="toMini" id="fk8-hM-x6a"/>
+                        <segue destination="wj4-L8-eaS" kind="show" identifier="toPorsche" id="lre-BY-675"/>
+                        <segue destination="GDi-3a-ceO" kind="show" identifier="toVolkswagen" id="R7m-SJ-8mx"/>
+                        <segue destination="oHF-bo-RvH" kind="show" identifier="toVolvo" id="wL4-fh-haA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="747.32824427480909" y="3.5211267605633805"/>
+        </scene>
+        <!--View Controller2-->
+        <scene sceneID="eW0-gJ-OxZ">
+            <objects>
+                <viewController id="uq8-Ob-Eej" customClass="ViewController2" customModule="MulakatOdev" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7LO-DT-qOk">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="lwG-Qt-iT0"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Trx-GK-OKL"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tD5-gj-rpT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1453" y="11"/>
+        </scene>
+        <!--View Controller3-->
+        <scene sceneID="5Ii-MK-miS">
+            <objects>
+                <viewController id="1vR-Yk-wy0" customClass="ViewController3" customModule="MulakatOdev" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LMT-oo-MhD">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="ea9-Jx-kmJ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="8PX-Td-GL3"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TKD-KF-nKS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2175" y="11"/>
+        </scene>
+        <!--View Controller5-->
+        <scene sceneID="yX8-g6-Pb0">
+            <objects>
+                <viewController id="eKU-ba-d5D" customClass="ViewController5" customModule="MulakatOdev" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Vn7-Yn-ggx">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="ic3-dt-xeu"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="4MF-kQ-7Ix"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LzT-ay-WPA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3534" y="22"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Cdy-qd-Je6">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="88B-LR-6gg" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="c94-kA-SSh">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="2k1-vg-Q2A"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wmF-km-0TN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-179.38931297709922" y="3.5211267605633805"/>
+        </scene>
+        <!--View Controller4-->
+        <scene sceneID="wb5-3I-Y11">
+            <objects>
+                <viewController id="RTh-rj-HkZ" customClass="ViewController4" customModule="MulakatOdev" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hzh-oE-kZG">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="naI-LY-EcT"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="yKe-5w-pte"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xcJ-uk-ZD4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2857" y="22"/>
+        </scene>
+        <!--View Controller7-->
+        <scene sceneID="1lP-Bb-Q8X">
+            <objects>
+                <viewController id="uF7-X4-6U7" customClass="ViewController7" customModule="MulakatOdev" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="u3G-SE-XXA">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Cag-NL-HUC"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="fp9-c8-hQ4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NO0-gZ-nqV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="582" y="813"/>
+        </scene>
+        <!--View Controller8-->
+        <scene sceneID="9wA-BB-VLB">
+            <objects>
+                <viewController id="R9v-ic-QJI" customClass="ViewController8" customModule="MulakatOdev" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xvi-Kl-xCr">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="7sg-p5-ZZi"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="vqi-jx-A4t"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QPj-cO-wSY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1453" y="780"/>
+        </scene>
+        <!--View Controller9-->
+        <scene sceneID="BsR-LX-ViE">
+            <objects>
+                <viewController id="yPw-cx-LG5" customClass="ViewController9" customModule="MulakatOdev" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HKU-U9-ywh">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="jiG-NW-Rob"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="0On-aJ-9Pb"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9fB-Dj-GsT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2334" y="780"/>
+        </scene>
+        <!--View Controller10-->
+        <scene sceneID="T0N-ZT-xcL">
+            <objects>
+                <viewController id="wj4-L8-eaS" customClass="ViewController10" customModule="MulakatOdev" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GyA-4P-heM">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="g9u-8r-YHv"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="2Ns-rV-8nW"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MTf-lx-7Xu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3164" y="814"/>
+        </scene>
+        <!--View Controller11-->
+        <scene sceneID="N8S-Y6-sb5">
+            <objects>
+                <viewController id="GDi-3a-ceO" customClass="ViewController11" customModule="MulakatOdev" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bGw-LE-shy">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="sf5-gd-roq"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="jma-4N-ITM"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gBj-F5-IrJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4112" y="813"/>
+        </scene>
+        <!--View Controller12-->
+        <scene sceneID="6SJ-zg-vCE">
+            <objects>
+                <viewController id="oHF-bo-RvH" customClass="ViewController12" customModule="MulakatOdev" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wEP-7Q-ZEb">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Y7I-BQ-tqC"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ymd-T0-IpK"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WGe-36-oos" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5048" y="780"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="rightarrow" width="277" height="182"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="tintColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
