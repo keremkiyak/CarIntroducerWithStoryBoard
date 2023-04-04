@@ -847,7 +847,7 @@ quasi aliquam eligendi, placeat qui corporis!</string>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mdc-is-1eA">
                                                         <rect key="frame" x="17.810551558757652" y="53.000000000002728" width="355.00000000007958" height="779"/>
-                                                        <string key="text">Fiat S.p.A. (Fiat Grubu olarak da bilinir) otomobil üreticisi, finansal ve endüstriyel grup. 11 Temmuz 1899'da[1] Giovanni Agnelli Tarafından Torino'da kurulmuştur. İsmini Fabbrica Italiana Automobili Torino" kelimelerinin baş harflerinden almıştır. Bünyesinde Lancia, Alfa Romeo, Maserati, Chrysler, Dodge, Jeep, Yamaha Motor Company, Iveco, Ferrari gibi markaları barındırmaktadır. Yani bu markaların bir anlamda sahibidir. Dünyanın en büyük otomobil ve endüstriyel grupları arasında yer alır.</string>
+                                                        <mutableString key="text">Fiat S.p.A. (Fiat Grubu olarak da bilinir) otomobil üreticisi, finansal ve endüstriyel grup. 11 Temmuz 1899'da Giovanni Agnelli Tarafından Torino'da kurulmuştur. İsmini Fabbrica Italiana Automobili Torino" kelimelerinin baş harflerinden almıştır. Bünyesinde Lancia, Alfa Romeo, Maserati, Chrysler, Dodge, Jeep, Yamaha Motor Company, Iveco, Ferrari gibi markaları barındırmaktadır. Yani bu markaların bir anlamda sahibidir. Dünyanın en büyük otomobil ve endüstriyel grupları arasında yer alır.</mutableString>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -1720,17 +1720,17 @@ quasi aliquam eligendi, placeat qui corporis!</string>
                                         <rect key="frame" x="0.0" y="236" width="393" height="582"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xxL-ez-l7g" userLabel="contentView">
-                                                <rect key="frame" x="0.0" y="0.0" width="393" height="865.66666666666663"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="393" height="845.33333333333337"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6EH-vw-9DU">
                                                         <rect key="frame" x="17.810551558757652" y="53.000000000002728" width="355.00000000007958" height="779"/>
-                                                        <string key="text">Mini, 1959-2000 yılları arasında üretilen mini sınıf otomobil modelidir. Aracın orijinali 1960'larda bir İngiliz ikonu olarak kabul edilir.[2][3][4]
+                                                        <mutableString key="text">Mini, 1959-2000 yılları arasında üretilen mini sınıf otomobil modelidir. Aracın orijinali 1960'larda bir İngiliz ikonu olarak kabul edilir.
 
-Araç, Sir Alec Issigonis tarafından tasarlanmıştır.[1][5] Mini ilk başta Austin ve Morris markaları altında satılmıştır. Araç üç büyük güncellemesi bulunmakta olup hatchback ile birlikte station wagon, sedan, kamyonet, van ve Moke adlı buggy modelleride üretilmiştir. Ayrıca sportif modelleri olan Mini Cooper ve Cooper S, başarılı birer ralli otomobileri olarak 1964, 1965 ve 1967 Monte Carlo rallilerini kazanmıştır.
+Araç, Sir Alec Issigonis tarafından tasarlanmıştır.  Mini ilk başta Austin ve Morris markaları altında satılmıştır. Araç üç büyük güncellemesi bulunmakta olup hatchback ile birlikte station wagon, sedan, kamyonet, van ve Moke adlı buggy modelleride üretilmiştir. Ayrıca sportif modelleri olan Mini Cooper ve Cooper S, başarılı birer ralli otomobileri olarak 1964, 1965 ve 1967 Monte Carlo rallilerini kazanmıştır.
 
-1999 yılında yapılan bir ankete göre Ford Model T'den sonra 20. yüzyılın en etkileyici otomobili seçilmiştir.[6][7]
+1999 yılında yapılan bir ankete göre Ford Model T'den sonra 20. yüzyılın en etkileyici otomobili seçilmiştir.
 
-Aracın üretimi 2000 yılında durmuş olup 2001 yılında yerini tamamen yenilenen ikinci nesline bırakmıştır.</string>
+Aracın üretimi 2000 yılında durmuş olup 2001 yılında yerini tamamen yenilenen ikinci nesline bırakmıştır.</mutableString>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -1943,13 +1943,13 @@ quasi aliquam eligendi, placeat qui corporis!</string>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d5g-Mw-Pev">
                                                         <rect key="frame" x="17.810551558757652" y="53.000000000002728" width="355.00000000007958" height="779"/>
-                                                        <string key="text">Dr. Ing. h.c. F. Porsche AG, kısaca Porsche AG veya sadece Porsche (okunuşu: Porşe) 1947 yılında Ferdinand Porsche'nın oğlu Ferry Porsche tarafından Stuttgart'ta kurulmuş olan spor araba firmasıdır.
+                                                        <mutableString key="text">Dr. Ing. h.c. F. Porsche AG, kısaca Porsche AG veya sadece Porsche (okunuşu: Porşe) 1947 yılında Ferdinand Porsche'nın oğlu Ferry Porsche tarafından Stuttgart'ta kurulmuş olan spor araba firmasıdır.
 
 İlk modelleri 1948 yılında çıkan Porsche 356'dır. Ferdinand Porsche 356 tasarımını yaparken oğluna yardım etmiş ve 1951 yılında ölmüştür.
 
 1963 yılında araba yarışlarında müthiş başarılar elde edecek Porsche 911'i piyasaya sunarlar. 6 silindirli, arkadan motorlu bir spor arabasıdır ve rallilerde de büyük başarılar kazanır.
 
-Bu süre içerisinde Volkswagen ile yakınlaşılır. Şirketin %30,9'u Volkswagen'e aittir. Birçok projede ortaklaşa çalışmalarda bulunurlar. (1969 VW-Porsche 914, 1976 Porsche 924 (Audi bazı parçaları kullanmıştır) ve 2002 Porsche Cayenne (motoru da başta olmak üzere birçok teknik aksamı ve ergonomik çizgileri Volkswagen Touareg'de kullanılmıştır). 2003 yılında Ferdinand Porsche'nin torunu, Ferdinand Piech Volkswagen'in CEO'su olarak bu iki şirketin "ailesel" anlamda birleşmesini sağlamıştır. Porsche, 1950-1963 yılları arasında Porsche Traktör adıyla traktör, 1987-1989 yılları arasında uçak motorları üretmiştir.</string>
+Bu süre içerisinde Volkswagen ile yakınlaşılır. Şirketin %30,9'u Volkswagen'e aittir. Birçok projede ortaklaşa çalışmalarda bulunurlar. (1969 VW-Porsche 914, 1976 Porsche 924 (Audi bazı parçaları kullanmıştır) ve 2002 Porsche Cayenne (motoru da başta olmak üzere birçok teknik aksamı ve ergonomik çizgileri Volkswagen Touareg'de kullanılmıştır). 2003 yılında Ferdinand Porsche'nin torunu, Ferdinand Piech Volkswagen'in CEO'su olarak bu iki şirketin "ailesel" anlamda birleşmesini sağlamıştır. Porsche, 1950-1963 yılları arasında Porsche Traktör adıyla traktör, 1987-1989 yılları arasında uçak motorları üretmiştir.</mutableString>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -2162,7 +2162,7 @@ quasi aliquam eligendi, placeat qui corporis!</string>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JbL-o1-g5U">
                                                         <rect key="frame" x="17.810551558757652" y="53.000000000002728" width="355.00000000007958" height="779"/>
-                                                        <string key="text">Volkswagen, Almanya'da, 1937 yılında tek model halk tipi otomobil üretimi için Nasyonal Sosyalist Alman İşçi Partisi tarafından Alman Otomotiv Birliğine kurdurulan otomobil firması. Şirketin adı, Almanca'da halkın arabası anlamına gelmektedir. Volkswagen AG bünyesinde hizmet verir. Brezilya'daki fabrikalarında VW Titan Tractor adıyla kamyon üretimine başlamıştır. Güney Afrika Cumhuriyeti'ndeki fabrikasında Volksbus adıyla otobüs üretmektedir. 1967'den beri Brezilya Sao Bernardo Campo fabrikasında üretilen Combi modeli, çağdaş güvenlik şartlarına uyum sağlayamadığı için Temmuz 2013'te üretimi durdurulmuştur. Volkswagen ABD'de aldığı ceza için slogan olarak "Volkswagen (Halkın Arabası)"i 2014 yazından beri kullanmaktadır.</string>
+                                                        <mutableString key="text">Volkswagen, Almanya'da, 1937 yılında tek model halk tipi otomobil üretimi için Nasyonal Sosyalist Alman İşçi Partisi tarafından Alman Otomotiv Birliğine kurdurulan otomobil firması. Şirketin adı, Almanca'da halkın arabası anlamına gelmektedir. Volkswagen AG bünyesinde hizmet verir. Brezilya'daki fabrikalarında VW Titan Tractor adıyla kamyon üretimine başlamıştır. Güney Afrika Cumhuriyeti'ndeki fabrikasında Volksbus adıyla otobüs üretmektedir. 1967'den beri Brezilya Sao Bernardo Campo fabrikasında üretilen Combi modeli, çağdaş güvenlik şartlarına uyum sağlayamadığı için Temmuz 2013'te üretimi durdurulmuştur. Volkswagen ABD'de aldığı ceza için slogan olarak "Volkswagen (Halkın Arabası)"i 2014 yazından beri kullanmaktadır.</mutableString>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
